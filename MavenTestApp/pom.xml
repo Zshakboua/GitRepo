@@ -135,12 +135,6 @@
       <plugins/>
     </pluginManagement>
   </build>
-  <parent>
-    <groupId>com.oracle.adf</groupId>
-    <artifactId>adf-parent</artifactId>
-    <version>12.2.1-4-0</version>
-    <relativePath>/MavenTestApp/</relativePath>
-  </parent>
   <dependencies>
   <!-- Dependency on cryptoj library -->
       <dependency>
@@ -182,18 +176,4 @@
       <layout>default</layout>
     </pluginRepository>
 </pluginRepositories> -->
-  <repositories>
-    <repository>
-      <name>OracleMaven</name>
-      <id>maven.oracle.com</id>
-      <url>https://maven.oracle.com</url>
-    </repository>
-  </repositories>
-  <pluginRepositories>
-    <pluginRepository>
-      <name>OracleMaven</name>
-      <id>maven.oracle.com</id>
-      <url>https://maven.oracle.com</url>
-    </pluginRepository>
-  </pluginRepositories>
 </project>
