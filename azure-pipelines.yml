@@ -10,7 +10,7 @@ pool:
   name: Self hosted demo
   demands:
   - agent.name -equals UCMPOC
-  - agent.Version -gtVersion 2.218.1
+  - agent.version -gtVersion 2.218.1
 
 steps:
 - task: Maven@3
