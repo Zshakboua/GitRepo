@@ -280,9 +280,8 @@
     </plugins>
   </build>
   <parent>
-    <groupId>com.oracle.adf</groupId>
-    <artifactId>adf-parent</artifactId>
-    <version>12.2.1-0-0</version>
-    <relativePath></relativePath>
+	  <groupId>com.msc.mvn</groupId>
+	  <artifactId>MavenTestApp</artifactId>
+	  <version>1.0-SNAPSHOT</version>
   </parent>
 </project>
