@@ -9,7 +9,7 @@
   <!-- weblogic-maven-plugin properties -->
       <properties>        
        <!--<weblogic.adminurl>t3://192.168.31.109:7101</weblogic.adminurl>-->    
-	    <weblogic.adminurl>t3://127.0.0.1:7101</weblogic.adminurl> 
+	    <weblogic.adminurl>t3://192.168.31.57:7001</weblogic.adminurl> 
        <weblogic.configfile>D:/tmp/wls.config</weblogic.configfile>
       <weblogic.keyfile>D:/tmp/wls.key</weblogic.keyfile>
       </properties>  
@@ -135,7 +135,12 @@
       <plugins/>
     </pluginManagement>
   </build>
-  
+  <parent>
+    <groupId>com.oracle.adf</groupId>
+    <artifactId>adf-parent</artifactId>
+    <version>12.2.1-4-0</version>
+    <relativePath></relativePath>
+  </parent>
   <dependencies>
   <!-- Dependency on cryptoj library -->
       <dependency>
@@ -157,18 +162,7 @@
       <type>war</type>
     </dependency>
   </dependencies>
- <repositories>
-    <repository>
-      <name>Maven Central</name>
-      <id>Maven Central</id>
-      <url>https://repo.maven.apache.org/maven2</url>
-    </repository>
-  </repositories>
-  <pluginRepositories>
-    <pluginRepository>
-      <name>Maven Central</name>
-      <id>Maven Central</id>
-      <url>https://repo.maven.apache.org/maven2</url>
-    </pluginRepository>
-  </pluginRepositories>
+ <repositories/>
+  <pluginRepositories/>
+
 </project>
