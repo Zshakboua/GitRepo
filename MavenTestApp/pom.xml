@@ -139,6 +139,7 @@
     <groupId>com.oracle.adf</groupId>
     <artifactId>adf-parent</artifactId>
     <version>12.2.1-4-0</version>
+	<!-- Adding relativePath value -->
     <relativePath>../pom.xml</relativePath>
   </parent>
   <dependencies>
