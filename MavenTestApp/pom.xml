@@ -153,14 +153,12 @@
       <groupId>MavenTestApp</groupId>
       <artifactId>Model</artifactId>
       <version>1.0-SNAPSHOT</version>
-	  <relativePath>/Model/</relativePath>
       <type>jar</type>
     </dependency>
     <dependency>
       <groupId>MavenTestApp</groupId>
       <artifactId>ViewController</artifactId>
       <version>1.0-SNAPSHOT</version>
-	  <relativePath>/ViewController/</relativePath>
       <type>war</type>
     </dependency>
   </dependencies>
