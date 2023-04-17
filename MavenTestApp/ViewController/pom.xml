@@ -279,9 +279,4 @@
       </plugin>
     </plugins>
   </build>
-  <parent>
-	  <groupId>com.msc.mvn</groupId>
-	  <artifactId>MavenTestApp</artifactId>
-	  <version>1.0-SNAPSHOT</version>
-  </parent>
 </project>
