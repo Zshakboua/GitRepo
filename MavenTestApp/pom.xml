@@ -157,24 +157,18 @@
       <type>war</type>
     </dependency>
   </dependencies>
-<repositories>
+ <repositories>
     <repository>
-      <name>OracleMaven</name>
-      <id>maven.oracle.com</id>
-      <url>https://maven.oracle.com</url>
+      <name>Maven Central</name>
+      <id>Maven Central</id>
+      <url>https://repo.maven.apache.org/maven2</url>
     </repository>
   </repositories>
   <pluginRepositories>
     <pluginRepository>
-      <id>maven.oracle.com</id>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-      <url>https://maven.oracle.com</url>
-      <layout>default</layout>
+      <name>Maven Central</name>
+      <id>Maven Central</id>
+      <url>https://repo.maven.apache.org/maven2</url>
     </pluginRepository>
-</pluginRepositories>
+  </pluginRepositories>
 </project>
