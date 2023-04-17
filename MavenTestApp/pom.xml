@@ -157,7 +157,7 @@
       <type>war</type>
     </dependency>
   </dependencies>
- <!--  <repositories>
+<repositories>
     <repository>
       <name>OracleMaven</name>
       <id>maven.oracle.com</id>
@@ -176,5 +176,5 @@
       <url>https://maven.oracle.com</url>
       <layout>default</layout>
     </pluginRepository>
-</pluginRepositories> -->
+</pluginRepositories>
 </project>
