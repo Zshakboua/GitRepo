@@ -63,14 +63,19 @@
           <execution>
             <phase>package</phase>
             <goals>
-              <goal>package</goal>
-			  <goal>deploy</goal>
+              <goal>deploy</goal>
             </goals>
           </execution>
         </executions>
       </plugin>
     </plugins>
   </build>
+  <parent>
+    <groupId>com.oracle.adf</groupId>
+    <artifactId>adf-parent</artifactId>
+    <version>12.2.1-0-0</version>
+    <relativePath></relativePath>
+  </parent>
   <dependencies>
     <dependency>
       <groupId>com.oracle.adf.library</groupId>
