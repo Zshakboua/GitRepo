@@ -23,7 +23,7 @@
         <version>12.2.1-0-0</version>
         <configuration>
           <ojmake>
-            C:/Oracle/Middleware/Oracle_Home/jdeveloper/jdev/bin/ojmake.exe
+            ${oracleHome}/jdeveloper/jdev/bin/ojmake.exe
           </ojmake>
           <files>
             ${basedir}/Model.jpr
@@ -121,4 +121,16 @@
       <scope>provided</scope>
     </dependency>
   </dependencies>
+  <repositories>
+    <repository>
+      <url>https://maven.oracle.com</url>
+      <id>maven.oracle.com</id>
+    </repository>
+  </repositories>
+  <pluginRepositories>
+    <pluginRepository>
+      <url>https://maven.oracle.com</url>
+      <id>maven.oracle.com</id>
+    </pluginRepository>
+  </pluginRepositories>
 </project>
