@@ -63,7 +63,8 @@
           <execution>
             <phase>package</phase>
             <goals>
-              <goal>deploy</goal>
+              <goal>package</goal>
+			  <goal>deploy</goal>
             </goals>
           </execution>
         </executions>
@@ -121,16 +122,4 @@
       <scope>provided</scope>
     </dependency>
   </dependencies>
-  <repositories>
-    <repository>
-      <url>https://maven.oracle.com</url>
-      <id>maven.oracle.com</id>
-    </repository>
-  </repositories>
-  <pluginRepositories>
-    <pluginRepository>
-      <url>https://maven.oracle.com</url>
-      <id>maven.oracle.com</id>
-    </pluginRepository>
-  </pluginRepositories>
 </project>
