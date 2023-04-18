@@ -23,7 +23,7 @@
         <version>12.2.1-0-0</version>
         <configuration>
           <ojmake>
-            ${oracleHome}/jdeveloper/jdev/bin/ojmake.exe
+            C:/Oracle/Middleware/Oracle_Home/jdeveloper/jdev/bin/ojmake.exe
           </ojmake>
           <files>
             ${basedir}/Model.jpr
