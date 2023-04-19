@@ -9,7 +9,7 @@ trigger:
 pool:
   name: Self hosted demo
   demands:
-  - agent.name -equals MSC-003
+  - agent.name -equals MSCJ-003
 
 steps:
 - task: Maven@3
